@@ -109,7 +109,6 @@ pipeline {
 
                     trivy fs \
                         --cache-dir .trivy-cache \
-                        --ignorefile .trivyignore \
                         --scanners vuln \
                         --severity HIGH,CRITICAL \
                         --format sarif \
