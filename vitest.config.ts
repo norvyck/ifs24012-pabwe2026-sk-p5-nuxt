@@ -13,7 +13,7 @@ export default defineConfig({
       provider: 'v8',
       include: ['src/helpers/**/*.ts', 'src/hooks/**/*.ts', 'src/features/**/*.ts'],
       exclude: ['src/**/*.test.ts', 'src/**/types.ts'],
-      reporter: ['text', 'json', 'json-summary'],
+      reporter: ['text', 'json', 'json-summary', 'lcov'],
       thresholds: { lines: 100, functions: 100, branches: 100, statements: 100 },
     },
   },
