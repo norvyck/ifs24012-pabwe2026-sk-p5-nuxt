@@ -1,0 +1,6 @@
+# Temporary exceptions: bun audit reports no patched release for these advisories.
+# Recheck and remove each exception as soon as an upstream fix is available.
+GHSA-vfj7-8cjw-p6xm
+CVE-2026-93687
+GHSA-86w9-cpqp-85rv
+CVE-2026-85393
